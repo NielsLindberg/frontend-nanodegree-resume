@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"format",
+				"formattedDescription"
+			],
+			[
+				"formate",
+				"formattedDates"
+			],
+			[
+				"formatted",
+				"formattedTitle"
+			],
+			[
+				"formattedEm",
+				"formattedEmployer"
+			],
+			[
+				"formattedEmp",
+				"formattedEmployerTitle"
+			],
+			[
 				"card",
 				"card-container"
 			],
@@ -15,6 +35,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js/resumeBuilder.js",
+			"settings":
+			{
+				"buffer_size": 2332,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -23,22 +51,36 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 183.0,
-		"last_filter": "Package Control: ",
+		"height": 129.0,
+		"last_filter": "Package Control: install",
 		"selected_items":
 		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Discover Packages"
 			]
 		],
-		"width": 549.0
+		"width": 571.0
 	},
 	"console":
 	{
 		"height": 186.0,
 		"history":
 		[
+			".jshintrc",
+			"view.run_command(\"jshint\")",
 			"$ bower install jquery",
 			"bower install jquery",
 			"npm install -g bower",
@@ -57,8 +99,29 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/D/Workspace/frontend-nanodegree-resume",
+		"/D/Workspace/frontend-nanodegree-resume/css",
+		"/D/Workspace/frontend-nanodegree-resume/js"
+	],
 	"file_history":
 	[
+		"/D/Workspace/frontend-nanodegree-resume/css/style.css",
+		"/D/Workspace/frontend-nanodegree-resume/bower.json",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Workspace/frontend-nanodegree-resume/js/psiresults.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/projects.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/jQuery.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/helper.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/education.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/bio.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/work.js",
+		"/D/Workspace/frontend-nanodegree-resume/index.html",
+		"/D/Workspace/adhoc/psiresults.js",
+		"/D/Workspace/frontend-nanodegree-resume/js/bio.json",
 		"/D/Workspace/GitTest/bower_components/paper-icon-button/paper-icon-button.html",
 		"/D/Workspace/GitTest/bower_components/paper-tabs/paper-tabs.html",
 		"/D/Workspace/GitTest/bower_components/paper-tabs/paper-tab.html",
@@ -93,7 +156,6 @@
 		"/C/Users/Niels/Google Drive/IT-Study/Udacity/Front-end developer/portfolio/framework/css/main.css",
 		"/C/Users/Niels/Google Drive/IT-Study/Udacity/Front-end developer/portfolio/framework/index.html",
 		"/C/Users/Niels/Google Drive/IT-Study/Udacity/Front-end developer/AdHoc/otherscss",
-		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Niels/Downloads/framework/framework/css/main.css",
 		"/C/Users/Niels/Downloads/framework/framework/test.html",
 		"/C/Users/Niels/Downloads/framework.zip",
@@ -106,7 +168,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -120,6 +182,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"\"",
+			"'",
+			"\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -137,14 +203,45 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/resumeBuilder.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1418,
+								1418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -181,7 +278,7 @@
 	"project": "javascriptcourse.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -219,7 +316,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 275.0,
+	"side_bar_width": 274.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
