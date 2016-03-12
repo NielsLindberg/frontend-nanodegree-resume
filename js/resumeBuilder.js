@@ -21,7 +21,7 @@ var displayStuff = function(parentContainer, sectionContainer, parentObject, sec
                     var currentValue = arrayObject[concatObjectKey];
                     if (currentValue.constructor === Array) {
                         currentValue.forEach(function(arrayObjectValue) {
-                            formattedDom = formattedDom + concatObject[concatObjectKey].replace('%data%', arrayObjectValue);
+                            formattedDom = formattedDom + concatObject[concatObjectKey].replace(/%data%/g, arrayObjectValue);
                         });
 
                         //else just add the dom element once
@@ -37,11 +37,8 @@ var displayStuff = function(parentContainer, sectionContainer, parentObject, sec
     });
 };
 
-displayStuff('#header', '#header', bio, bio.headerInfo, '');
-displayStuff('#header', '#skills', bio, bio.skillsInfo, bio.htmlOuterSkills);
-displayStuff('#education', '.education-entry:last', education, education.schools, education.htmlOuterTemplate);
-displayStuff('#education', '.education-entry:last', education, education.onlineCourses, education.htmlOuterTemplate);
-displayStuff('#workExperience', '.work-entry:last', work, work.jobs, work.htmlOuterTemplate);
-displayStuff('#projects', '.project-entry:last', projects, projects.projectsInfo, projects.htmlOuterTemplate);
 
-$('#mapDiv').append(googleMap);
+displayStuff('#bioContainer', '#bioContainer', bio, bio.headerInfo, '');
+displayStuff('#bioContainer', '#skills-list', bio, bio.skillsInfo, bio.htmlOuterSkills);
+displayStuff('#educationContainer', '.education-entry:last', education, education.schools, education.htmlOuterTemplate);
+displayStuff('#workExperienceContainer', '.work-entry:last', work, work.jobs, work.htmlOuterTemplate);

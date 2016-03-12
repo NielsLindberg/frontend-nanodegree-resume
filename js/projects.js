@@ -11,19 +11,14 @@ var projects = {
     }],
 
     "projectsInfo": [{
-        "title": "Polymer Stuff",
-        "dates": "19/01/2013 - 30/01/2016",
-        "description": "lorem ipsumdipsum",
+        "title": "Revview of Royal-Unibrew.com",
+        "dates": "February 2016",
+        "description": "This paper was a part of the LTU course, 'Introduction to Web Development'. The purpose was to analyze http://www.royal-unbibrew.com from a design, usability and accesibility perspective",
         "images": ["http://placehold.it/200x100", "http://placehold.it/200x100"]
     }, {
-        "title": "Polymer Stuff",
-        "dates": "19/01/2013 - 30/01/2016",
-        "description": "lorem ipsumdipsum",
-        "images": ["http://placehold.it/200x100", "http://placehold.it/200x100"]
-    }, {
-        "title": "Polymer Stuff",
-        "dates": "19/01/2013 - 30/01/2016",
-        "description": "lorem ipsumdipsum",
+        "title": "Food blog",
+        "dates": "Spring 2016",
+        "description": "This is the main project of the LTU course, 'Introduction to Web Development'. It is a blog like website for posting food recipe reviews.",
         "images": ["http://placehold.it/200x100", "http://placehold.it/200x100"]
     }]
-}
+};

@@ -1,67 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jQuery.js"></script>
-    <script src="js/helper.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
     <meta name="viewport" content="width=device-width">
 </head>
 
-<body>
-    <div id="main">
-        <div id="header" class="center-content clear-fix">
-            <ul id="topContacts" class="flex-box"></ul>
+<body class="bgcolor-2">
+    <div class="header-wrapper">
+        <div class="header bgcolor-white color-3 shadow">
         </div>
-        <div style="clear: both;"></div>
-        <div id="workExperience" class="gray">
-            <h2>Work Experience</h2>
+    </div>
+    <div id="main" class="content-wrapper flex flex-down bgcolor-white shadow">
+       <div id="bio" class="flex-flex-down space-above">
+            <h2 class="section-header">Bio</h2>
+            <div id="bioContainer" class="bio-container border flex flex-wrap flex-down bgcolor-white shadow">
+            </div>
         </div>
-        <div id="projects">
-            <h2>Projects</h2>
+        <div id="skills" class="flex flex-down space-above">
+            <div id="skillsContainer" class="flex flex-wrap flex-center flex-right">
+            </div>
         </div>
-        <div id="education" class="gray">
-            <h2>Education</h2>
+        <div id="workExperience" class="flex flex-down space-above">
+            <h2 class="section-header">Work Experience</h2>
+            <div id="workExperienceContainer" class="flex flex-wrap flex-right">
+            </div>
         </div>
-        <div id="mapDiv">
-            <h2>Where I've Lived and Worked</h2>
+        <div id="education" class="flex flex-down space-above">
+            <h2 class="section-header">Education</h2>
+            <div id="educationContainer" class="flex flex-wrap flex-right">
+            </div>
         </div>
-        <div id="lets-connect" class="dark-gray">
-            <h2 class="orange center-text">Let's Connect</h2>
-            <ul id="footerContacts" class="flex-box">
+        <div id="lets-connect">
+            <h2 class="section-header">Let's Connect</h2>
+            <ul id="footerContacts" class="flex flex-wrap flex-right">
             </ul>
         </div>
     </div>
     <script src="js/bio.js"></script>
     <script src="js/education.js"></script>
     <script src="js/work.js"></script>
-    <script src="js/projects.js"></script>
     <script src="js/resumeBuilder.js"></script>
-    <script type="text/javascript">
-    if (document.getElementsByClassName('flex-item').length === 0) {
-        document.getElementById('topContacts').style.display = 'none';
-    }
-    if (document.getElementsByTagName('h1').length === 0) {
-        document.getElementById('header').style.display = 'none';
-    }
-    if (document.getElementsByClassName('work-entry').length === 0) {
-        document.getElementById('workExperience').style.display = 'none';
-    }
-    if (document.getElementsByClassName('project-entry').length === 0) {
-        document.getElementById('projects').style.display = 'none';
-    }
-    if (document.getElementsByClassName('education-entry').length === 0) {
-        document.getElementById('education').style.display = 'none';
-    }
-    if (document.getElementsByClassName('flex-item').length === 0) {
-        document.getElementById('lets-connect').style.display = 'none';
-    }
-    if (document.getElementById('map') === null) {
-        document.getElementById('mapDiv').style.display = 'none';
-    }
-    </script>
 </body>
 
 </html>
